@@ -1,0 +1,10 @@
+# robots.txt — Grupo Arandu
+# https://grupoarandu.com.br/robots.txt
+
+User-agent: *
+Allow: /
+
+# Endpoints internos de integração (newsletter/contato) não devem ser indexados
+Disallow: /api/
+
+Sitemap: https://grupoarandu.com.br/sitemap.xml
